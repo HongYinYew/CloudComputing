@@ -49,7 +49,7 @@ const ContactFrom = () => {
                 </div>
                 <div className='input'>
                   <span>
-                    Phone Number <label>*</label>
+                    Phone Number nig <label>*</label>
                   </span>
                   <input type='number' name='phone' value={phone} onChange={(e) => setPhone(e.target.value)} />
                 </div>
