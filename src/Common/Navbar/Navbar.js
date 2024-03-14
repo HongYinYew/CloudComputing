@@ -27,18 +27,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to='/gallery' onClick={closeMobileMenu}>
-                Gallery
-              </Link>
-            </li>
-            <li>
               <Link to='/destinations' onClick={closeMobileMenu}>
                 Destinations
-              </Link>
-            </li>
-            <li>
-              <Link to='/blog' onClick={closeMobileMenu}>
-                Blog
               </Link>
             </li>
             <li>
@@ -66,7 +56,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link to='/contact'>
-                <button className='primary-btn'>Request a Quote</button>
+                <button className='primary-btn'>Inquire Now</button>
               </Link>
             </li>
           </div>
@@ -75,9 +65,12 @@ const Navbar = () => {
 
       <header>
         <div className='container flex_space'>
-          <div className='logo'>
-            <img src='images/logo.png' alt='' />
-          </div>
+          <Link to='/' onClick={closeMobileMenu}>
+            <div className='logo'>
+              <img src='images/logo.png' alt='' />
+            </div>
+          </Link>
+
 
           <div className='contact flex_space '>
             <div className='box flex_space'>
@@ -85,8 +78,8 @@ const Navbar = () => {
                 <i class='fal fa-clock'></i>
               </div>
               <div className='text'>
-                <h4>Working Hours</h4>
-                <Link to='/contact'>Monday - Sunday: 9.00am to 6.00pm</Link>
+                <h4>Booking Hours</h4>
+                <Link to='/contact'>Monday - Sunday: 9.00am to 9.00pm</Link>
               </div>
             </div>
             <div className='box flex_space'>
@@ -95,7 +88,7 @@ const Navbar = () => {
               </div>
               <div className='text'>
                 <h4>Call Us</h4>
-                <Link to='/contact'>+011 123 4567</Link>
+                <Link to='/contact'>+012 345 6789 (Don't call)</Link>
               </div>
             </div>
             <div className='box flex_space'>
@@ -104,7 +97,7 @@ const Navbar = () => {
               </div>
               <div className='text'>
                 <h4>Mail Us</h4>
-                <Link to='/contact'>info@exampal.com</Link>
+                <Link to='/contact'>CustomerSupport@adhotel.my</Link>
               </div>
             </div>
           </div>

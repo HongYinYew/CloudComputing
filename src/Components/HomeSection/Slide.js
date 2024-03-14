@@ -44,7 +44,7 @@ const Home = ({ slides }) => {
           <span> Search and Book Hotel</span>
 
           <form>
-            <input type='text' placeholder='Seacrh City' />
+            <input type='text' placeholder='Search City' />
             <div className='flex_space'>
               <input type='date' placeholder='Check In' />
               <input type='date' placeholder='Check Out' />

@@ -53,6 +53,9 @@ footer .primary-btn {
   border-radius: 0px;
   text-align: center;
 }
+footer .subsribeText {
+  color: white;
+}
 .legal {
   text-align: center;
   padding: 20px;

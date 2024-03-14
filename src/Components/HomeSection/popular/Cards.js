@@ -56,15 +56,8 @@ const Cards = () => {
                   <div className='imgae'>
                     <img src={value.image} alt='' />
                     <i className='fas fa-map-marker-alt'>
-                      <label>{value.country}</label>
+                      <label>{value.area}</label>
                     </i>
-                  </div>
-                  <div className='rate'>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='far fa-star'></i>
-                    <i className='far fa-star'></i>
                   </div>
                   <div className='details'>
                     <h2>{value.name}</h2>

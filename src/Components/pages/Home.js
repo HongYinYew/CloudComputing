@@ -15,7 +15,6 @@ const Home = () => {
       <HomeAbout />
       <MostPopular />
       <DestinationHome />
-      <Download />
       <Works />
       <Gallery />
     </>

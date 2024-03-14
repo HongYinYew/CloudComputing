@@ -9,6 +9,7 @@ import "./singlepage.css"
 const SinglePage = () => {
   const { id } = useParams()
   const [item, setItem] = useState(null)
+  const [click, setClick] = useState(false)
 
   useEffect(() => {
     let item = Sdata.find((item) => item.id === parseInt(id))
@@ -16,6 +17,7 @@ const SinglePage = () => {
       setItem(item)
     }
   }, [id])
+  const closeMobileMenu = () => setClick(false)
 
   return (
     <>
@@ -56,9 +58,11 @@ const SinglePage = () => {
                 <div className='box'>
                   <h2>How can we help you?</h2>
                   <p>{item.sidepara}</p>
+                  <Link to='/contact' onClick={closeMobileMenu}>
                   <button className='outline-btn'>
                     <i className='fa fa-phone-alt'></i> Contact Us
                   </button>
+                </Link>
                 </div>
 
                 <div className='box2'>

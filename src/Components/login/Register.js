@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import HeadTitle from "../../Common/HeadTitle/HeadTitle"
 import "./design.css"
+import { Link } from "react-router-dom"
 
 const Register = () => {
   const [name, setName] = useState("")
@@ -20,6 +21,7 @@ const Register = () => {
     setEmail("")
     setPassword("")
     setCpassword("")
+    window.location.replace('/sign-in')
   }
   return (
     <>
@@ -33,37 +35,12 @@ const Register = () => {
               <input type='email' name='email' value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Email' required />
               <input type='password' name='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' required />
               <input type='password' name='cpassword' value={cpassword} onChange={(e) => setCpassword(e.target.value)} placeholder='Confirm Password' required />
-
               <button type='submit' className='primary-btn'>
                 Create an Account
               </button>
             </form>
           </div>
         </div>
-      </section>
-
-      <section className='show-data'>
-        {recValue.map((cureentValue) => {
-          return (
-            <>
-              <div className='sign-box'>
-                <h1>Create an Account Successfully</h1>
-                <h3>
-                  Name : <p>{cureentValue.name}</p>
-                </h3>
-                <h3>
-                  Email : <p>{cureentValue.email}</p>
-                </h3>
-                <h3>
-                  Password : <p>{cureentValue.password}</p>
-                </h3>
-                <h3>
-                  Confirm Password : <p>{cureentValue.cpassword}</p>
-                </h3>
-              </div>
-            </>
-          )
-        })}
       </section>
     </>
   )
