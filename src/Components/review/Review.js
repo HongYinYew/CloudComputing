@@ -1,14 +1,14 @@
 import React from "react"
 import HeadTitle from "../../Common/HeadTitle/HeadTitle"
-import AllBlog from "./AllBlog"
+import AllItem from "./AllItem"
 
-const Blog = () => {
+const Review = () => {
   return (
     <>
       <HeadTitle />
-      <AllBlog />
+      <AllItem />
     </>
   )
 }
 
-export default Blog
+export default Review

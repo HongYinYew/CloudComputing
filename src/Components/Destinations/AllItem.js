@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Dcards from "./Dcards"
-import "../gallery/Gallery.css"
+import "../Destinations/Gallery.css"
 import "./Destinations.css"
 import Sdata from "./Sdata"
 

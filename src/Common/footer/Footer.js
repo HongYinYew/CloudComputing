@@ -24,16 +24,10 @@ const Footer = () => {
                 <Link to='/about'>About us</Link>
               </li>
               <li>
-                <Link to='/gallery'>Gallery</Link>
-              </li>
-              <li>
                 <Link to='/destinations'>Destinations</Link>
               </li>
               <li>
-                <Link to='/blog'>Blog</Link>
-              </li>
-              <li>
-                <Link to='/testimonial'>Testimonial</Link>
+                <Link to='/review'>Reviews</Link>
               </li>
               <li>
                 <Link to='/contact'>Contact Us</Link>

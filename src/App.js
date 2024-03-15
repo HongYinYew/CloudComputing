@@ -10,7 +10,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import SinglePage from "./SinglePage/SinglePage"
 
 /*-------------blog------------ */
-import Testimonial from "./Components/Testimonial/Testimonial"
+import Review from "./Components/review/Review"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Common/footer/Footer"
 import Login from "./Components/login/Login"
@@ -27,7 +27,7 @@ function App() {
           <Route path='/about' exact component={About} />
           <Route path='/destinations' exact component={Destinations} />
           <Route path='/singlepage/:id' component={SinglePage} />
-          <Route path='/testimonial' component={Testimonial} />
+          <Route path='/review' component={Review} />
           <Route path='/contact' component={Contact} />
           <Route path='/sign-in' component={Login} />
           <Route path='/Register' component={Register} />

@@ -1,12 +1,12 @@
 import React from "react"
 import Card from "./Card"
 import Tdata from "./Tdata"
-import "./Testimonial.css"
+import "./Review.css"
 
 const AllItem = () => {
   return (
     <>
-      <section className='Testimonial mtop'>
+      <section className='Review mtop'>
         <div className='container grid1'>
           {Tdata.map((value, index) => {
             return <Card key={index} {...value} />
