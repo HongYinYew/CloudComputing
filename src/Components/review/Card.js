@@ -5,8 +5,9 @@ const Card = (props) => {
     <>
       <div className='box'>
         <i className='fa fa-quote-left'></i>
+        <h4>{props.desc1}</h4>
         <div className='para'>
-          <p>{props.desc}</p>
+          <p>{props.desc2}</p>
         </div>
         <hr />
         <div className='details flex '>
@@ -15,7 +16,11 @@ const Card = (props) => {
           </div>
           <div className='name'>
             <h3>{props.name}</h3>
-            <span>{props.post}</span>
+            <span>{props.post1}</span>
+            <br></br>
+            <span>{props.post2}</span>
+            <br></br>
+            <span>{props.post3}</span>
           </div>
         </div>
       </div>

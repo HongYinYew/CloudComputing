@@ -35,29 +35,24 @@ const SinglePage = () => {
             <article className='content flex'>
               <div className='main-content'>
                 <img src={item.image} alt='' />
-                <p>{item.desc}</p>
-                <p>{item.desc}</p>
-
                 <div className='para flex_space'>
-                  <p>{item.sidepara}</p>
-                  <p>{item.sidepara}</p>
                 </div>
-                <h1>Whta is the {item.title} City ?</h1>
+                <h1>{item.title}</h1>
                 <p>{item.desc}</p>
 
                 <div className='image grid1 '>
                   <img src={item.paraImage_one} alt='' />
                   <img src={item.paraImage_two} alt='' />
                 </div>
-                <p>{item.desc}</p>
+                <p>{item.desc2}</p>
               </div>
               {/* --------- main-content--------- */}
 
               {/* --------- side-content--------- */}
               <div className='side-content'>
                 <div className='box'>
-                  <h2>How can we help you?</h2>
-                  <p>{item.sidepara}</p>
+                  <h4>If you require assistance or more information, do not hesitate to contact us.</h4>
+                  <p>{item.contacthelp}</p>
                   <Link to='/contact' onClick={closeMobileMenu}>
                   <button className='outline-btn'>
                     <i className='fa fa-phone-alt'></i> Contact Us
@@ -66,7 +61,6 @@ const SinglePage = () => {
                 </div>
 
                 <div className='box2'>
-                  <p>{item.sidepara}</p>
                 </div>
               </div>
               {/* --------- side-content--------- */}

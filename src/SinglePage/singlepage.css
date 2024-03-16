@@ -18,7 +18,7 @@
   font-size: 30px;
 }
 .main-content img {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
@@ -27,32 +27,10 @@ article .box {
   padding: 30px;
   color: white;
 }
-article .box h2 {
-  font-size: 30px;
-  font-weight: 500;
-}
-article .box2 {
-  margin-top: 40px;
-  background: url("../../public/images/side-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 180px;
-  width: 100%;
-  position: relative;
-  padding: 20px;
-}
-article .box2::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 180px;
-  width: 100%;
-}
 article p {
   font-size: 14px;
   line-height: 25px;
+  text-align: justify;
 }
 article .box2 p {
   text-align: center;
@@ -61,6 +39,12 @@ article .box2 p {
   font-size: 14px;
   line-height: 25px;
   color: white;
+}
+.image.grid1 img {
+  width: 100%; 
+  height: 90%; 
+  max-width: 100%; 
+  display: block;
 }
 @media screen and (max-width: 768px) {
   .single-page .flex {
