@@ -30,7 +30,7 @@ const ContactFrom = () => {
       <section className='contact mtop'>
         <div className='container flex'>
           <div className='main-content'>
-            <h2>Contact From</h2>
+            <h2>Contact Form</h2>
             <p>Fill out the form below, we will get back you soon.</p>
 
             <form onSubmit={formSubmit}>
@@ -49,7 +49,7 @@ const ContactFrom = () => {
                 </div>
                 <div className='input'>
                   <span>
-                    Phone Number nig <label>*</label>
+                    Phone Number <label>*</label>
                   </span>
                   <input type='number' name='phone' value={phone} onChange={(e) => setPhone(e.target.value)} />
                 </div>

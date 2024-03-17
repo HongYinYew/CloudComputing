@@ -14,8 +14,8 @@ const AboutCard = () => {
           <h1>
             We <span>provide Solution</span> to grow your business
           </h1>
-          <p>With AD Hotel we don't just fulfill accomodation request, we can also host events and corporate meetings in a large scale. With the help of our large multi-purpose hall, it can do almost everything that is requested.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
+          <p>At AD Hotel, we specialize in providing tailored solutions to fuel the growth and success of your business. With a focus on innovation and excellence, we work closely with our clients to understand their unique challenges and opportunities, developing strategies that drive measurable results. From digital marketing and technology integration to strategic planning and operational optimization, our comprehensive range of services is designed to address every aspect of your business needs, empowering you to achieve your goals and realize your full potential.</p>
+          <p>With a proven track record of success and a commitment to delivering exceptional results, we are dedicated to serving as your trusted partner on the journey to success. Whether you're a small startup looking to establish your brand presence or a large corporation aiming to streamline your operations, we have the expertise, resources, and passion to help you succeed. Join us and discover how we can collaborate to grow your business and achieve greatness together.</p>
           <Link to='/about' onClick={closeMobileMenu}>
           <button className='secondary-btn'>
             Explore More <i className='fas fa-long-arrow-alt-right'></i>
