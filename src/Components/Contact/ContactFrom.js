@@ -114,7 +114,6 @@ const ContactFrom = () => {
                 <h3>
                   <p>Thanks for contacting us, we will get back to you as soon as possible</p>
                 </h3>
-                
               </div>
             </>
           )
