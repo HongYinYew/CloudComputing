@@ -5,9 +5,11 @@ import "./design.css"
 
 const Login = () => {
   const [email, setEmail] = useState("")
+  const [click, setClick] = useState(false)
   const [password, setPassword] = useState("")
 
   const [recValue, setRecValue] = useState([])
+  const closeMobileMenu = () => setClick(false)
   const submitForm = (e) => {
     e.preventDefault()
     const newValue = { email: email, password: password }
@@ -17,6 +19,7 @@ const Login = () => {
 
     setEmail("")
     setPassword("")
+    window.location.replace('/')
   }
   return (
     <>
@@ -53,17 +56,8 @@ const Login = () => {
       <section className='show-data'>
         {recValue.map((cureentValue) => {
           return (
-            <>
-              <div className='sign-box'>
-                <h1>Sign-In Successfully</h1>
-                <h3>
-                  Email : <p>{cureentValue.email}</p>
-                </h3>
-                <h3>
-                  Password : <p>{cureentValue.password}</p>
-                </h3>
-              </div>
-            </>
+            <Link to='/' onClick={closeMobileMenu}>
+            </Link>
           )
         })}
       </section>

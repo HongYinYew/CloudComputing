@@ -22,7 +22,7 @@ nav ul li a {
   opacity: 0.8;
 }
 nav ul li a:hover {
-  color: #31b675;
+  color: #e5ff00;
 }
 
 .nav-links-mobile {
@@ -52,6 +52,7 @@ nav i {
 }
 .login-area button {
   margin-left: 20px;
+  background: #002fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -76,7 +77,7 @@ nav i {
     display: block;
   }
   nav ul.active {
-    background: #31b675;
+    background: #002fff;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -113,7 +114,7 @@ header a {
 }
 header i {
   font-size: 40px;
-  color: #31b675;
+  color: #002fff;
   margin-right: 15px;
 }
 header .text {

@@ -80,13 +80,13 @@ const ContactFrom = () => {
 
           <div className='side-content'>
             <h3>Visit our location</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur.</p>
+            <p>No. 1, Jalan Somewhere, Taman Don't Come, 56000, Cheras, Kuala Lumpur</p>
             <br />
 
             <h3>Message us</h3>
-            <span>info@exampal.com</span>
+            <span>CustomerSupport@adhotel.my</span>
             <br />
-            <span>+01 123 456 789</span>
+            <span>+012 345 6789 (Don't call)</span>
             <br />
 
             <div className='icon'>
@@ -107,32 +107,14 @@ const ContactFrom = () => {
 
       <section className='show-data'>
         {allValue.map((cureentValue) => {
-          const { fname, lname, phone, email, subject, company, message } = cureentValue
           return (
             <>
               <div className='sign-box'>
                 <h1>Send Successfully</h1>
                 <h3>
-                  First Name : <p>{fname}</p>
+                  <p>Thanks for contacting us, we will get back to you as soon as possible</p>
                 </h3>
-                <h3>
-                  Last Name : <p>{lname}</p>
-                </h3>
-                <h3>
-                  Contact Number : <p>{phone}</p>
-                </h3>
-                <h3>
-                  Email : <p>{email}</p>
-                </h3>
-                <h3>
-                  Subject : <p>{subject}</p>
-                </h3>
-                <h3>
-                  Company Name: <p>{company}</p>
-                </h3>
-                <h3>
-                  Your Message : <p>{message}</p>
-                </h3>
+                
               </div>
             </>
           )

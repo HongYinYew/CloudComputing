@@ -9,9 +9,7 @@ const Footer = () => {
         <div className='container grid'>
           <div className='box'>
             <h2>ABOUT US</h2>
-            <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet consectetur scing elit amet consectetur adipiscing elit sed et eletum.</p>
-            <br />
-            <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet consectetur scing elit amet.</p>
+            <p>AD Hotel is a Hotel where it combines powerful hotels into one website, to host events, conference meetings, or even normal accomodation. Book now!</p>
           </div>
 
           <div className='box'>
@@ -37,7 +35,7 @@ const Footer = () => {
 
           <div className='box'>
             <h2>NEWSLETTER</h2>
-            <p>Lorem ipsum dolor sit amet sectetur adipiscing elit amet</p>
+            <p>Subscribe and get the latest newsletter from us!</p>
             <input type='text' name='' id='' className="subsribeText" placeholder="Enter Email"/>
             <input type='text' className='primary-btn' value='SUBSCRIBE' />
           </div>

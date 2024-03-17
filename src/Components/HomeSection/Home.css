@@ -15,6 +15,10 @@
   right: 5%;
 }
 
+.control-btn i {
+  background-color: #002fff;
+}
+
 .control-btn .prev {
   position: absolute;
   top: 40%;
@@ -53,7 +57,7 @@
   margin-right: 20px;
 }
 .slide-form .submit {
-  background: #31b675;
+  background: #002fff;
   color: white;
 }
 /*--------form-----------*/
